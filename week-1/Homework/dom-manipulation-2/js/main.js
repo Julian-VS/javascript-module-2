@@ -67,7 +67,7 @@ document.querySelector('form').addEventListener('submit', (e) => {
     const email = e.target.elements.exampleInputEmail1
     const name = e.target.elements.exampleTextInput
     const description = e.target.elements.exampleTextarea
-    cons inputs = [email, name, description];
+    const inputs = [email, name, description]
 
     checkInputs(inputs);
     checkLengthAndDisplayAlert(email, name, description, inputs)
